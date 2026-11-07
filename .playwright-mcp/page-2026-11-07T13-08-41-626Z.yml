@@ -1,0 +1,73 @@
+- application [ref=e1]:
+  - iframe [aria-hidden] [ref=e2]
+  - iframe [aria-hidden] [ref=e3]
+  - banner "Menu bar" [ref=e4]:
+    - generic [ref=e7]:
+      - link "Sheets home" [ref=e9] [cursor=pointer]:
+        - /url: https://docs.google.com/spreadsheets/?usp=sheets_web
+      - generic [ref=e16]:
+        - generic "Allo Recurring Task Tracker" [ref=e18]:
+          - 'button "Document status: Saved to Drive." [ref=e24]':
+            - generic [ref=e25] [cursor=pointer]
+        - generic [ref=e31]:
+          - button "Sebin Mathew" [ref=e37]:
+            - img "Sebin Mathew" [ref=e42] [cursor=pointer]
+          - generic [ref=e43]:
+            - button "Share. Anyone with the link. Anyone who has the link can access. No sign-in required." [disabled] [ref=e44]: Share
+            - button "Quick sharing actions" [disabled] [ref=e46]
+          - link "Sign in" [ref=e50] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1Wwxq4v3QouanA9LHV34pnlyOirfO7MYTVQKxbAKSzp4/edit&followup=https://docs.google.com/spreadsheets/d/1Wwxq4v3QouanA9LHV34pnlyOirfO7MYTVQKxbAKSzp4/edit&ltmpl=sheets&ec=GAZAmwI
+    - generic [ref=e51]:
+      - menubar [ref=e53]:
+        - menuitem "File" [ref=e54] [cursor=pointer]
+        - menuitem "Edit" [ref=e55] [cursor=pointer]
+        - menuitem "View" [ref=e56] [cursor=pointer]
+        - menuitem "Insert" [disabled] [ref=e57]
+        - menuitem "Format" [disabled] [ref=e58]
+        - menuitem "Data" [ref=e59] [cursor=pointer]
+        - menuitem "Tools" [ref=e60] [cursor=pointer]
+        - menuitem "Extensions" [disabled] [ref=e61]
+        - menuitem "Help" [ref=e62] [cursor=pointer]
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - toolbar "Search the menus (Alt+/)" [ref=e65]:
+            - combobox "Menus" [ref=e67]
+          - toolbar "Main" [ref=e68]:
+            - button "Print (Ctrl+P)" [ref=e69] [cursor=pointer]
+            - button "Filter views" [ref=e74] [cursor=pointer]
+            - combobox "Zoom" [ref=e83] [cursor=pointer]:
+              - option "Zoom list. 100% selected." [selected] [ref=e86]:
+                - textbox "Zoom" [ref=e87]: 100%
+            - button "Mode" [ref=e91] [cursor=pointer]:
+              - generic [ref=e92]: View only
+        - toolbar "Mode and view" [ref=e95]:
+          - button "Hide the menus (Ctrl+Shift+F)" [ref=e96] [cursor=pointer]
+    - generic [ref=e103]:
+      - generic "Name box (Ctrl + J)" [ref=e104]:
+        - textbox [ref=e105]: A1
+        - button "Name box menu button. Select one of the menu items to navigate to its corresponding named range." [ref=e107] [cursor=pointer]
+      - textbox [ref=e123]
+  - navigation "Sheet tab bar" [ref=e155]:
+    - toolbar [ref=e156]:
+      - button "All Sheets" [ref=e157] [cursor=pointer]
+    - toolbar [ref=e166]:
+      - button "Sheet1" [ref=e167]
+      - button "TaskMaster" [ref=e175] [cursor=pointer]
+      - button "Cycles" [ref=e183] [cursor=pointer]
+      - button "Log" [ref=e191] [cursor=pointer]
+      - button "Config" [ref=e199] [cursor=pointer]
+      - button "MyTasks" [ref=e207] [cursor=pointer]
+      - button "Dashboard" [ref=e215] [cursor=pointer]
+    - toolbar [ref=e223]:
+      - button "Scroll left" [disabled] [ref=e224]
+      - button "Scroll right" [ref=e229] [cursor=pointer]
+  - generic [ref=e234]:
+    - textbox [active]
+  - link "Turn on screen reader support" [ref=e235] [cursor=pointer]:
+    - /url: "#"
+  - textbox [ref=e236]
+  - region [ref=e237]: To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash
+  - generic [ref=e238]: Banner hidden
+  - region
+  - generic [ref=e239]: Sebin Mathew has joined the document.
+  - iframe [ref=e241]

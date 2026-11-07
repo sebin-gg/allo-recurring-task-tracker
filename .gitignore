@@ -1,0 +1,11 @@
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+repomix-output.txt
+.DS_Store
+Thumbs.db
+.clasp.json
+.clasprc.json
+.serena/
