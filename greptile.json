@@ -1,0 +1,5 @@
+{
+  "context": "Google Apps Script (V8) project. Code.gs is the entire backend, deployed by paste into a bound Google Sheet — no build step, no npm. Key invariants in AGENTS.md §2.1: dedupe keys on every write path, LockService on mutations, single-point completion via MyTasks, 'Overdue' is computed never stored, Config tab holds all emails/SLA knobs, example.com must never be emailed.",
+  "comments": true,
+  "shouldReview": true
+}

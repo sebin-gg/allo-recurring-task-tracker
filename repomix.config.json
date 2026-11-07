@@ -1,0 +1,11 @@
+{
+  "output": {
+    "filePath": "repomix-output.txt",
+    "style": "markdown",
+    "removeComments": false,
+    "showLineNumbers": true
+  },
+  "ignore": {
+    "customPatterns": ["repomix-output.txt", "node_modules/**"]
+  }
+}

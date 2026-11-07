@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# CodeRabbit AI code review — https://coderabbit.ai
+# tone_instructions is capped at 250 chars — keep it short or the file
+# silently falls back to defaults.
+language: "en-US"
+tone_instructions: >-
+  Be concise, specific, and demanding. Lead with file:line. Offer concrete
+  fixes. Flag anything that breaks dedupe keys, LockService use, or the
+  single-point-update rule in AGENTS.md §2.1.
+early_access: true
+enable_free_tier: true
+
+reviews:
+  profile: "assertive"
+  request_changes_workflow: true
+  auto_approve: false
+  high_level_summary: true
+  review_status: true
+  poem: false
+  collapse_walkthrough: true
+  sequence_diagrams: false
+  changed_files_summary: true
+
+chat:
+  auto_reply: true
