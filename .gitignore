@@ -9,3 +9,4 @@ Thumbs.db
 .clasp.json
 .clasprc.json
 .serena/
+.playwright-mcp/
